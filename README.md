@@ -11,15 +11,14 @@ The **Advanced Tor Link Finder** is a Python-based application designed to help 
 - **Dropdown Selection**: Select keywords from a dropdown menu for quick access.
 - **Machine Learning Integration**: Uses a trained model to predict keywords when direct matches are not available.
 - **Copy to Clipboard**: Easily copy links to the clipboard for convenient sharing.
-- **Scrollable Results**: View a large number of results with an integrated scrollbar.
 - **Disclaimer**: Informative disclaimer regarding the purpose and limitations of the tool.
 
 ## Requirements
 This project requires the following Python packages:
-- `tkinter` (standard library, no installation needed)
+- `tkinter` 
 - `pandas` 
 - `pyperclip`
 - `pickle`
-- `scikit-learn` (if used in training your model)
+- `scikit-learn`
 
 You can install the required packages using pip. Create a `requirements.txt` file with the following content:
