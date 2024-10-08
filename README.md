@@ -2,7 +2,10 @@
 
 ## Overview
 The **Advanced Tor Link Finder** is a Python-based application designed to help users efficiently locate and manage .onion URLs associated with specific keywords. By integrating machine learning models, this tool not only retrieves links based on user-input keywords but also predicts relevant keywords when no direct matches are found. The application features a user-friendly GUI built with Tkinter, enhancing accessibility for both technical and non-technical users.
-(1.png)
+
+![Overview](1.png)  <!-- Link to your overview image -->
+![Working Example](working.png)  <!-- Link to your working example image -->
+
 ## Features
 - **Keyword Search**: Enter a keyword to find related Tor links.
 - **Dropdown Selection**: Select keywords from a dropdown menu for quick access.
@@ -20,4 +23,3 @@ This project requires the following Python packages:
 - `scikit-learn` (if used in training your model)
 
 You can install the required packages using pip. Create a `requirements.txt` file with the following content:
-
